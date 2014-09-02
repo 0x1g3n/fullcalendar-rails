@@ -24,6 +24,16 @@ And in your application.js:
 
     //= require fullcalendar
 
+If you want to include a localization file, also add the following directive:
+
+    //= require fullcalendar/<locale>.js
+
+or 
+
+    //= require fullcalendar/all.js
+
+if you want to include all locales bundle
+
 You can also include the fullcalendar.print file in your css manifest like this:
 
     *= require fullcalendar.print
